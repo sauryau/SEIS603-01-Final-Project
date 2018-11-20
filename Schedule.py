@@ -7,7 +7,7 @@ print('---------------------------')
 
 put_on_patch = False
 take_off_patch =False
-put_on_time = datetime.datetime(2018,11,12,23,1)
+put_on_time = datetime.datetime(2018,11,13,20,25)
 take_off_time = put_on_time + datetime.timedelta(seconds=60)
 while put_on_patch == False or take_off_patch == False:
     if datetime.datetime.now() >= put_on_time and put_on_patch==False:
